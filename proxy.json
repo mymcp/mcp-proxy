@@ -1,0 +1,11 @@
+{
+    "sseAddr": ":8080",
+    "sseUrl": "http://localhost:8080/proxy",
+    "mcpServers": {
+        "filesystem": {
+          "transport": "stdio",
+          "cmd": "npx -y @modelcontextprotocol/server-filesystem ~/",
+          "env": []
+        }
+    }
+}
